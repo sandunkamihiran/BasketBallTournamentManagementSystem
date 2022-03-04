@@ -30,6 +30,13 @@ Setting up local development environment.
     ```
     python manage.py generate_data
     ```
+  
+### Assumptions
+
+* Average_score of each player is considered as past personal statistic of that player (not specific to current tournament)
+* Average_score of each team is considered as past team statistic of that team (not specific to current tournament)
+* Unit of height of players is considered as in centimeters(cm) 
+* Unit of weight of players is considered as in kilograms(kg) 
 
 ### Test Project
 
